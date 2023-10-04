@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Al-Jazeera-Arabic';
+    src: url('Al-Jazeera-Arabic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Al-Jazeera-Arabic';
+    src: url('Al-Jazeera-Arabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aljazeera';
+    src: url('Aljazeera.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* { padding: 0;
+    margin: 0;
+    font-family: 'Aljazeera';
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navbar {
+    height: 80px;
+    width: 80%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: black;
+}
+.navbar i {
+    height: 24px;
+    width: 24px;
+    /* margin-right: 20px; */
+    
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    /* margin-right: 20px; */
+}
+.navbar select {
+    border:none;
+}
+.selection {
+    margin-left: 100px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    background-image:url(logo.jpg);
+    background-size: cover;
+}
+
+.middle {
+    height: 523px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.article {
+    width: 400px;
+    height: 503px;
+}
+.article h1, h3 {
+    font-size: 38px;
+}
+.article h3 {
+    font-weight: normal;
+}
+.article p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.fb-tt {
+    display: flex;
+    margin-top: 20px;
+}
+.fb {
+    height: 24px;
+    width: 24px;
+    background-image: url(fb.png);
+    background-size: cover;
+}
+.tt {
+    height: 24px;
+    width: 33px;
+    background-image: url(tt.png);
+    background-size: cover;
+    margin-right: 20px;
+}
+.cover {
+    width: 773px;
+    height: 515px;
+    background-image: url(russia.webp);
+    background-size: cover;
+}
+
+/* Titles */
+.titles {
+    width: 80%;
+    height: 111px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.titles a {
+    height: 55px;
+    width: 350px;
+    font-size: 23px;
+}
+#t3 {
+    height: 70px;
+}
+
+

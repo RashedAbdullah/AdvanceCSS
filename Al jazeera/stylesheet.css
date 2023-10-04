@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Al-Jazeera-Arabic';
+    src: url('Al-Jazeera-Arabic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Al-Jazeera-Arabic';
+    src: url('Al-Jazeera-Arabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aljazeera';
+    src: url('Aljazeera.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

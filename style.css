@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div {
+    margin: 20px;
+}
+
+.maxandmin {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(0, 65, 65);
+    border-radius: 10px;
+}
+
+.Responsive {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+@media (max-width: 800px) and (min-width: 200px) {
+    .maxandmin {
+        height: 250px;
+        width: 250px;
+        background-color:aquamarine;
+    }
+}
+
+
+
+.transition {
+    height: 400px;
+    width: 400px;
+    background-color: dodgerblue;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(10, start);
+    transition-delay: 0.5s; */
+    /* we can write this four transition in one line */
+    transition: all 1s steps(5) 0.5s;
+}
+
+.transition:hover {
+    border-radius: 50%;
+}
+
+.transition:active{
+    background-color: red;
+}
+
+.transition:focus {
+    background-color: red;
+}
+
+
+
+.transform {
+    background-color: cyan;
+}
+
+.transformOne, .transformTwo, .transformThree, .transformFour, .transformFive, .scaleOne, .scaleTwo, .scaleThree, .scaleFour, .translateOne, .translateTwo, .translateThree, .translateFour, .translateFive, .skewOne, .skewTwo, .skewThree, .skewFour {
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.transformOne:hover {
+    transform: rotate(45deg);
+}
+.transformTwo:hover {
+    transform: rotate(-45deg);
+}
+
+.transformThree:hover {
+    rotate: x 90deg;
+}
+
+.transformFour:hover {
+    rotate: y 90deg;
+}
+
+.transformFive:hover {
+    rotate: 90deg;
+}
+
+.scaleOne:hover{
+    transform: scale(2);
+}
+
+.scaleTwo:hover {
+    transform: scale(2, 3);
+}
+
+.scaleThree:hover {
+    transform: scaleX(2);
+}
+
+.scaleFour:hover {
+    transform: scaleY(2);
+}
+
+.translateOne:hover {
+    transform: translate(50px);
+}
+
+.translateTwo:hover {
+    transform: translate(-50px);
+}
+
+.translateThree:hover {
+    transform:translateX(50px);
+}
+
+.translateFour:hover {
+    transform: translateY(50px);
+}
+
+.translateFive:hover {
+    transform: translate(50px, 50px);
+}
+
+.skewOne:hover {
+    transform: skew(45deg);
+}
+
+.skewTwo:hover {
+    transform: skewX(45deg);
+}
+
+.skewThree:hover {
+    transform: skewY(45deg);
+}
+
+.skewFour:hover {
+    transform: skew(45deg, 90deg);
+}
+
+
+.Animation {
+    background-color: rgb(2, 72, 72);
+}
