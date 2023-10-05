@@ -146,3 +146,59 @@ div {
 .Animation {
     background-color: rgb(2, 72, 72);
 }
+
+.aninateColor {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration:alternate; */
+    animation: colorAnimate 3s ease-in 0s infinite normal;
+}
+
+/* @keyframes colorAnimate {
+    from {background-color: aqua;}
+    to {background-color: red;}
+} */
+
+/* @keyframes colorAnimate {
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        transform: skew(45deg);
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+    }
+} */
+
+.Loader {
+    height: 100px;
+    width: 100px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: loading 1s ease-in-out 0s infinite normal;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Li Ador Noirrit';
+    src: url('LiAdorNoirrit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Ador Noirrit';
+    src: url('LiAdorNoirrit.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Li Ador Noirrit';
+}
+
+.container {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #f4f5f6;
+    border-bottom: 2px solid black;
+    transition-duration: 0.50s;
+}
+.container:hover {
+    border-bottom: 2px solid teal;
+    background-color:#EBF9FA;
+}
+.container .icons {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 60px;
+}
+.container .icons i {
+    margin-inline-end: 1px;
+    font-size: 20px;
+    padding: 10px;
+}
+.container .icons #i1 {
+    margin-right: 100px;
+}
+
+.container .logo {
+    height: 60px;
+    width: 50%;
+    text-align: left;
+}
+.container .logo #quranLogo {
+    font-weight:bold;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.container .logo #QuranTrans {
+    font-size: 16px;
+    margin-left: 105px;
+}
+
+
+/* Hero area */
+.hero {
+    height: 260px;
+    width: 100%;
+}
+.hero h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.hero div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero div input {
+    height: 45px;
+    width: 575px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    background: transparent;
+    font-family: 'Li Ador Noirrit';
+}
+.hero div input::placeholder {
+    font-family: 'Li Ador Noirrit';
+    font-size: 20px;
+}
+.hero div i {
+    font-size: 30px;
+}
+
+/*সুরা নাম*/
+.surahNames {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.surahNames div {
+    margin-inline: 10px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F5F6;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    transition-duration: 1s;
+    animation: rotate_border 6s linear infinite;
+}
+.surahNames div:hover {
+    background-color:#d9fcff;
+}
+
+.surahNames div .surahNumber {
+    height: 35px;
+    width: 35px;
+    background-color: #006969;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+} 
+.surahNames div a {
+    width: 150px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*footer*/
+footer {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #212121;
+    color: white;
+}
+
+footer .aboutUs {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+footer .aboutUs .msg {
+    width: 500px;
+}
+footer .aboutUs ul {
+    margin-top: 50px;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-top: 70px;
+    background-color: black;
+    padding-top: 30px;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 30px;
+}
+footer .social a {
+    margin-inline: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}

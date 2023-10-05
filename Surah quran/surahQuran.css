@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;400;500&family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: 'Changa', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* .logo {
+    background-image: url(logo2.svg)
+} */
+.header {
+    height: 270px;
+    width: 100%;
+    background-color: #04091ECC;
+}
+.hero {
+    height: 72px;
+    width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+.hero ul {
+    display: flex;
+}
+.hero ul li {
+    margin-right: 20px;
+    font-size: 13px;
+}
+ul a {
+    color: white;
+}
+
+
+.secondary-hero {
+    color: white;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.secondary-hero h1 {
+    font-size: 48px;
+}
+.secondary-hero h2 {
+    font-size: 18px;
+    width: 80%;
+    margin-right: 25px;
+}
+
+.middle {
+    width: 730px;
+    height: 2500px;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+}
+.middle h3 a {
+    color: #007bff;
+}
+
+.iqra {
+    background-image: url(iqraa.png);
+    width: 585px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-size: cover;
+}
+.middle h3 {
+    margin-top: 20px;
+    width: 300px;
+    margin-right: 240px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+}
+.menu a {
+    padding: 10px 30px 10px 30px;
+    /* width: 170px;
+    height: 54px; */
+    color: black;
+    font-size: 14px;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+    margin-right: 5px;
+    /* align-items: center; */
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.middle h2 {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+.middle p {
+    text-align: center;
+    font-size: 14px;
+}
+.middle p a{
+    color:#007bff;
+}
+
+.search-box {
+    width: 730px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.search-box input {
+    width: 600px;
+    height: 30px;
+}
+.search-box i {
+    background-color: #007bff;
+    padding: 6px 30px 10px 30px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+    /* height: 30px;
+    width: 70px; */
+}
+
+/* Surah Names */
+.surahNames {
+    width: 730px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surahNames a{
+    width: 180px;
+    height: 47px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    font-size: 14px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+    font-weight: 1000px;
+}
+
+
+
+
+/* Footer */
+
+.footerOne {
+    height: 208px;
+    width: 100%;
+    background-color: #f7631bc9;
+    color: white;
+    text-align: center;
+}
+.footerOne h4 {
+    font-size: 38px;
+    margin-top: 20px;
+}
+.footerOne p {
+    width: 670px;
+    height: 70px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.footerSecond {
+    height: 330px;
+    width: 100;
+    background-color: #04091e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerSecond .about-site {
+    width: 350px;
+}
+.footerSecond ul {
+    width: 160px;
+    height: 175px;
+}
+.footerSecond ul h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.footerSecond ul li {
+    font-size: 14px;
+}
+.footerSecond div h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.footerSecond div p {
+    font-size: 14px;
+}

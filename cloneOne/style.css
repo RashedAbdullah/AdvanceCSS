@@ -1,0 +1,633 @@
+/* font-family: 'Poppins', sans-serif; 400/500/600 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* font-family: 'Abel', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #10111E;
+    color: white;
+}
+
+.bgimage {
+    background-image: url(./imges/header-right-image.png);
+    background-size: cover;
+}
+
+header {
+    max-width: 1300px;
+    height: 32px;
+    padding: 30px;
+    padding-left: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.longAndName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+    margin-right: 3px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info ul {
+    font-size: 16px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.info ul li {
+    margin-inline: 10px;
+}
+
+.info ul li a {
+    color: rgba(255, 255, 255, 0.651);
+}
+.info ul li .homecolor {
+    color: white;
+}
+
+
+
+.allHero {
+    margin-left: 100px;
+    display: flex;
+}
+
+.heroleft {
+    width: 50%;
+}
+
+.heroright {
+    width: 50%;
+}
+
+.heroleft img {
+    width: 388px;
+    height: 32px;
+    margin-top: 250px;
+}
+
+.heroleft h2 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+.heroleft h2 span {
+    color: #5CE1E6;
+
+}
+
+.heroleft p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.activeuser img {
+    width: 1300px;
+    height: 52px;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.handleBusiness {
+    margin-left: 100px;
+    width: 1300px;
+    margin-top: 150px;
+
+    display: flex;
+}
+
+.firstHandle {
+    width: 50%;
+}
+
+.secondHandle {
+    width: 35%;
+    margin-left: 40px;
+}
+
+.firstHandle h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.firstHandle p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.firstHandle button, .cardDeal button, .tryourservice button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #5CE1E6;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+    box-shadow: 5px 5px 10px 5px rgb(0, 107, 107),
+               -5px -5px 5px 5px rgb(0, 58, 58);
+}
+
+.handleOne, .handleTwo, .handleThree {
+    display: flex;
+    margin-top: 20px;
+}
+
+.handleOne img, .handleTwo img, .handleThree img {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.handleOne > div h4, .handleTwo > div h4, .handleThree > div h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.handleOne > div p, .handleTwo > div p, .handleThree > div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFFB2;
+}
+
+.handleOne {
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.handleThree {
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.handleTwo {
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+    background-color: #2A2833;
+    transition: 0.3s;
+}
+
+.handleOne:hover, .handleThree:hover, .handleTwo:hover {
+    background-color: rgb(0, 52, 52);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.paypalAndMore {
+    margin-top: 100px;
+    display: flex;
+    width: 1300px;
+    margin-left: 80px;
+}
+
+.fisrPaypal {
+    width: 50%;
+}
+
+.EasilyControl {
+    width: 50%;
+}
+
+.fisrPaypal .paypal {
+    position: absolute;
+    left: 270px;
+
+    Height: 250px;
+}
+
+.fisrPaypal .trans {
+    position: relative;
+    top: 175px;
+    left: 40px;
+    z-index: -1;
+
+    height: 220px;
+}
+
+.fisrPaypal .marking {
+    height: 45px;
+    width: 270px;
+    background-color: white;
+    border-radius: 5px;
+
+    position: relative;
+    top: 150px;
+    left: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marking img {
+    height: 20px;
+}
+
+.marking p {
+    font-size: 12px;
+    color: black;
+    margin-left: 5px;
+}
+
+.EasilyControl {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.EasilyControl h2, .cardTexts h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 160%; /* 76.8px */
+    letter-spacing: 0.48px;
+}
+
+.EasilyControl p, .cardTexts p {
+color: rgba(255, 255, 255, 0.70);
+font-size: 18px;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+letter-spacing: 0.18px;
+margin-top: 30px;
+}
+
+.EasilyControl img {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.EasilyControl img:hover {
+    box-shadow: 5px 5px 10px 5px rgb(0, 37, 37),
+               -5px -5px 5px 5px rgb(0, 58, 58);
+}
+
+.cardDeal {
+    margin-left: 100px;
+    width: 1300px;
+    margin-top: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardDeal .cardTexts, .outsiteCircle {
+    width: 50%;
+}
+
+.outsiteCircle {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    background-image: url(./imges/circule.png);
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.circle .scanBox {
+    border-radius: 20px;
+    background: linear-gradient(122deg, #FFF -264.89%, #6D6D6D -77.96%, #11101D 80.93%);
+    backdrop-filter: blur(5px);
+
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 20px;
+
+    position: absolute;
+    left: 785px;
+    top: 2400px;
+}
+
+.scanBox h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.16px;
+}
+
+.scanBox p {
+color: rgba(255, 255, 255, 0.70);
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 160%; /* 19.2px */
+letter-spacing: 0.12px;
+}
+
+.analysis {
+    width: 300px;
+    position: relative;
+    left: 160px;
+}
+
+.analysis .lastIMG {
+    position: relative;
+    right: 115px;
+    top: 20px;
+    width: 200px;
+}
+
+
+.opinions {
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.opinions .OpinionHead, .OpinionDesc {
+    width: 50%;
+}
+.OpinionHead h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 160%; /* 76.8px */
+    letter-spacing: 0.48px;
+}
+.OpinionDesc p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: 0.18px;
+    margin-top: 30px;
+}
+
+.threeOpinion {
+    width: 1300px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.threeOpinion .opinionAll {
+    width: 280px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.opinionAll > p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.36px;
+    margin-top: 10px;
+}
+
+.imgAndNames {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.imgAndNames > p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.imgAndNames img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.imgAndNames p:last-child {
+    opacity: 0.5;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.opinionAllOne {
+    border-radius: 20px;
+    background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+}
+
+.imgesforlogo {
+    width: 1300px;
+    margin: 100px 0;
+    margin-left: 120px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tryourservice {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width: 1220px;
+    padding: 80px 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 20px;
+    background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+}
+
+.tryourserviceOne {
+    width: 70%;
+}
+.tryourserviceTwo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tryourserviceOne h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.tryourserviceOne p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.18px;
+}
+
+
+footer {
+    background: rgba(11, 10, 12, 0.60);
+}
+
+.footerDiv {
+    margin-left: 100px;
+    padding: 50px;
+    width: 1250px;
+
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.333);
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerimgAndLogo {
+    display: flex;
+}
+
+.footerimgAndLogo img {
+    width: 72.136px;
+    height: 72.136px;
+}
+
+.footerimgAndLogo p {
+font-size: 40.576px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+margin-top: 10px;
+margin-left: 5px;
+}
+
+.footerimgAndLogo p span {
+    color: #5CE1E6;
+}
+
+.footerimgAndLogoOutsite p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin-top: 10px;
+}
+
+.footerDiv ul h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.footerDiv ul li a {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    margin-top: 10px;
+}
+
+.copyright {
+    width: 1300px;
+    margin-left: 100px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright .copyrightTexts p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.copyright .copyrightTexts p span {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Abel;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}

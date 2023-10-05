@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200;300&family=Inter:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+body {
+    background-color: #0b2525;
+    /* letter-spacing: 2px; */
+}
+
+a {
+    text-decoration: none;
+}
+.main-header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.first-header {
+    height: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #123636;
+    /* background-color: rgb(2, 2, 27) */
+}
+.first-header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    background-color: #123636;
+}
+.last-header {
+    height: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #123636;
+    /* background-color: blue; */
+}
+.last-header p {
+    font-size: 22px;
+    background-color: #123636;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-right: 30px;
+}
+.last-header a {
+    height: 40px;
+    width: 40px;
+    /* background-color:rgb(3, 42, 66); */
+    margin-inline: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123636;
+}
+.last-header a i {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #123636;
+    margin-inline: 10px;
+    margin-top: 15px;
+}
+
+.middle {
+    height: 760px;
+    width: 100%;
+    display: flex;
+    
+}
+.middle .head-lines {
+    width: 843px;
+    height: 600px;
+}
+.middle .design {
+    width: 843px;
+    height: 760px;
+    flex-shrink: 0;
+    background-image: url(img/design.png);
+    background-size: cover;
+}
+
+.head-lines {
+    text-align: center;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.middle .head-lines h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+.middle .head-lines p {
+    font-family: 'Inter', sans-serif;
+}
+.middle .head-lines button {
+    width: 115px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid #FCB336;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    margin-inline: 10px;
+}
+
+.middle .head-lines h1 span {
+    color:#00ffff;
+}
+.poject-btn {
+    background-color: #FCB336;
+}
+.poject-btn:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+.contact-btn {
+    background-color: #0b2525;
+}
+.contact-btn:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+
+
+.second-hero {
+    height: 1000px;
+    background-color: rgb(11, 20, 35);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.second-hero .container {
+   height: 180px;
+   width: 300px;
+   border: 1px solid black;
+   border-radius: 10px;
+   margin-inline: 20px;
+   background-color: #FCB336;
+   box-shadow: 7px 7px 7px 0px rgba(191, 255, 0, 0.1);
+   text-align: center;
+   margin-top: 100px;
+}
+.second-hero .container h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.second-hero .container p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13;
+    margin-top: 5px;
+}
+
+
+
+
+footer .main-footer {
+    height: 200px;
+    background-color:#123636;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .main-footer h1 {
+    font-weight: normal;
+    color: rgb(0, 150, 173);
+}
+
+footer .main-footer ul {
+    margin-inline: 100px;
+    list-style-type: none;
+}
+footer .main-footer ul h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+footer p {
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color:#094343;
+}
