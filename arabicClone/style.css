@@ -1,0 +1,673 @@
+/* font-family: 'Cairo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.headerandhero {
+    color: white;
+    background-image: url(./imges/herobg.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.headerlogo a img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.headerLinks p a {
+    color: var(--White, #FFF);
+    text-shadow: 0px 8px 28px rgba(37, 37, 37, 0.10);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.headerLinks p a:hover {
+    background-color: rgb(0, 43, 43);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.headerYTlogo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+}
+
+.headerYTlogo a img {
+    width: 30px;
+    border-radius: 15px;
+}
+
+.heroArea {
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.heroArea h2 {
+    color: var(--White, #FFF);
+    text-align: center;
+    text-shadow: 0px 8px 28px rgba(37, 37, 37, 0.10);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1.36px;
+}
+
+.heroArea .heroDesc {
+    color: var(--White, #FFF);
+    text-align: center;
+    text-shadow: 0px 8px 28px rgba(37, 37, 37, 0.10);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.48px;
+    margin-top: 25px;
+}
+
+.herobtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.herobtn button {
+    display: flex;
+    width: 150px;
+    border: none;
+    padding: 12px 30px 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 15px;
+    background: var(--rise-n-shine-600, #FEC430);
+    box-shadow: 0px 8px 28px 0px rgba(37, 37, 37, 0.10);
+    align-self: center;
+    cursor: pointer;
+}
+
+.heroArea .followDown {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.heroLastImg {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    cursor: pointer;
+}
+
+.underHeroArea {
+    margin: 150px 100px 50px 50px;
+}
+
+.underHeroArea h4 {
+    color: var(--umbra-300, #A5A5A5);
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.underHeroArea h3 {
+    color: var(--umbra-700, #191919);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.toutPlaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 50px;
+}
+
+
+.toutPlaces .placeIMG {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    width: 330px;
+    height: 520px;
+    background-image: url(./imges/istanbul-img.png);
+    background-size: cover;
+}
+
+.toutPlaces .placeIMG2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    width: 330px;
+    height: 520px;
+    background-image: url(./imges/dubai-img.png);
+    background-size: cover;
+}
+
+.toutPlaces .placeIMG3 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    width: 330px;
+    height: 520px;
+    background-image: url(./imges/cairo-img.png);
+    background-size: cover;
+}
+
+.placeTexts {
+    width: 220px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    backdrop-filter: blur(3px);
+    margin-bottom: 20px;
+}
+
+.placeTexts h3 {
+    color: var(--umbra-700, #191919);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.placeTexts p {
+    color: var(--umbra-400, #797979);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.enjoyness {
+    margin: 150px 50px 0 50px;
+}
+
+.enjoyness > h4 {
+    color: var(--umbra-300, #A5A5A5);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.enjoyness > h3 {
+    color: var(--umbra-700, #191919);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.underEnjoyness {
+    margin: 50px;
+    padding: 50px 200px;
+    border-radius: 25px;
+    background: var(--candy-grape-fizz-100, #F1EFFD);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.points {
+    width: 250px;
+}
+
+.points > img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.points > h3 {
+    color: var(--umbra-700, #191919);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.points > p {
+    color: var(--umbra-500, #4C4C4C);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.54px;
+}
+
+.aboutpayment {
+    margin: 100px 150px 50px 50px;
+}
+
+.aboutpayment > h4 {
+    color: var(--umbra-300, #A5A5A5);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.aboutpayment > h3 {
+    color: var(--umbra-700, #191919);
+    font-size: 35px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.paymentDetails {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paymentOption1 {
+    width: 220px;
+    padding: 48px 33px;
+    border-radius: 25px;
+    border: 1.5px solid var(--umbra-700, #191919);
+    background: var(--rise-n-shine-300, #FFE7AC);
+    box-shadow: 10px 10px 0px 0px #000;
+}
+
+.paymentOption1 > h3 {
+    color: var(--umbra-700, #191919);
+    font-size: 25px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.paymentOption1 > h4 {
+    color: var(--umbra-700, #191919);
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.paymentOption1 > p {
+    color: var(--umbra-700, #191919);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.54px;
+    margin-bottom: 20px;
+}
+
+.paymentOption1 > button {
+    display: flex;
+    padding: 5px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid var(--umbra-700, #191919);
+    margin-top: 50px;
+}
+
+.marksimgAndtext {
+    margin-top: 20px;
+}
+
+.marksimgAndtext > p {
+    color: var(--umbra-700, #191919);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.54px;
+
+    margin-top: 5px;
+}
+
+.marksimgAndtext > p > img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.paymentOption2 {
+    position: relative;
+    bottom: 50px;
+    background: var(--candy-grape-fizz-800, #46368B);
+    color: white;
+}
+
+.paymentOption2 > h3, .paymentOption2 > h4, .paymentOption2 > p, .paymentOption2 > .marksimgAndtext > p {
+    color: white;
+}
+
+.paymentOption2 > button {
+    border: 1px solid #fff;
+    color: white;
+}
+
+.peopleOpinionHead {
+    margin-top: 100px;
+}
+
+.peopleOpinionHead > h3 {
+    color: var(--umbra-300, #A5A5A5);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.peopleOpinionHead > h2 {
+    color: var(--umbra-700, #191919);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.opinions {
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.opinion1 {
+    width: 200px;
+    padding: 50px;
+    border-radius: 20px;
+    background: var(--candy-grape-fizz-100, #F1EFFD);
+}
+
+.opinion1 > img {
+    height: 15px;
+    width: 15px;
+}
+
+.opinion1 > p {
+    color: var(--umbra-500, #4C4C4C);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.54px;
+}
+
+.opinioner > .imgAndName {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.opinioner > .imgAndName > img {
+    height: 30px;
+    width: 30px;
+}
+
+.rightleftArrow {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+
+.rightLeft {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2.5px solid var(--White, #FFF);
+    background: var(--candy-grape-fizz-600, #755AE8);
+    box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightLeft > img {
+    height: 15px;
+    width: 15px;
+}
+
+.feedback {
+    margin: 100px 110px 50px 100px;
+}
+
+.feedback > h4 {
+    color: var(--umbra-300, #A5A5A5);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.feedback > h3 {
+    color: var(--umbra-700, #191919);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.formandEnd {
+    margin: 0 100px 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+form {
+    width: 500px;
+    padding: 50px;
+    border-radius: 25px;
+    border: 1.5px solid var(--umbra-700, #191919);
+    background: var(--rise-n-shine-300, #FFE7AC);
+    box-shadow: 10px 10px 0px 0px #000;
+}
+
+form > p {
+    color: var(--umbra-700, #191919);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+form > input {
+    width: 400px;
+    height: 25px;
+    padding: 15px;
+    margin-top: 5px;
+
+    border-radius: 15px;
+    border: 1.5px solid var(--umbra-700, #191919);
+    background: var(--White, #FFF);
+}
+
+form > .lastinput {
+    height: 60px;
+}
+
+form > input::placeholder {
+    color: var(--umbra-300, #A5A5A5);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.54px;
+}
+
+form > button {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding: 5px 30px 5px 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    border-radius: 15px;
+    background: var(--umbra-700, #191919);
+    color: white;
+    border: none;
+}
+
+button {
+    font-family: 'Cairo', sans-serif;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(0, 40, 40);
+    color: white;
+    cursor: pointer;
+}
+
+.help {
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.help1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.help1 > img {
+    width: 100px;
+    height: 100px;
+}
+
+.help1 > div {
+    width: 300px;
+}
+
+.help1 > div > p {
+    color: var(--umbra-500, #4C4C4C);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.54px;
+}
+
+.help1 > div > p > span {
+    color: #755AE8;
+}
+
+
+footer {
+    background: var(--umbra-700, #191919);
+    padding-top: 80px;
+    margin-top: 100px;
+}
+
+footer > .allUL {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.allUL > div {
+    width: 20vw;
+}
+
+.allUL > ul {
+    width: 10vw;
+}
+
+.allUL > ul > li {
+    list-style: none;
+}
+
+.allUL > ul > h2, .allUL > div > h2 {
+    color: var(--rise-n-shine-100, #FFF9EA);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.allUL > div > h2 > span {
+    color: var(--rise-n-shine-600, #FEC430);
+}
+
+.allUL > ul > li, .allUL > div > p {
+    color: var(--umbra-400, #797979);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+    margin-top: 10px;
+}
+
+.underfooter {
+    margin: 50px 50px 0 50px;
+    padding: 10px;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.333);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.underfooter > div > p {
+    color: var(--umbra-400, #797979);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+}
+
+.underfooter > div > p > span {
+    color: var(--rise-n-shine-600, #FEC430);
+}
+
+.underfooter > div  > img {
+    height: 30px;
+}
