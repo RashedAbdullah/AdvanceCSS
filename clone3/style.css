@@ -1,0 +1,307 @@
+/* font-family: 'Inter', sans-serif; 400/600/700 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* font-family: 'DM Sans', sans-serif; 400 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.mainDiv > .hero {
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.mainDiv > .leftDiv {
+    width: 15%;
+    height: 100vh;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.logo > img {
+    width: 180px;
+    height: 42px;
+}
+
+.general > p {
+    color: #718096;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.general > .activeDash {
+    border-radius: 30px;
+    background: #EDF2F7;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.general > div {
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.general > div:hover {
+    border-radius: 30px;
+    background: #EDF2F7;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.general > div a {
+    display: flex;
+    align-items: center;
+}
+
+.general > div > a > img {
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+}
+
+.general > div > a {
+    color: #1A202C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;    
+}
+
+.management > h4 {
+    color: #718096;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;    
+}
+
+.management > div {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.management > div > a {
+    display: flex;
+    align-items: center;
+}
+
+.management > div > a > img {
+    width: 20px;
+    height: 20px;  
+    margin-right: 10px;  
+}
+
+.management > div > a {
+    color: #718096;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 12px */
+    letter-spacing: -0.36px;
+}
+
+.footer > p {
+    color: #4A5568;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+
+.hero {
+    background: #EDF2F7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.dashboard > h3 {
+    color: #1A202C;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.dashboard > p {
+    color: var(--gray-500, #718096);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 41px;
+    width: 300px;
+    border-radius: 9999px;
+    background: #E2E8F0;
+}
+
+.searchBox > img {
+    cursor: pointer;
+}
+
+.searchBox > input {
+    background-color: transparent;
+    border: none;
+    width: 250px;
+    height: 38px;
+    padding: 0 10px;
+}
+
+.notify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.notify > button {
+    display: flex;
+    width: 141px;
+    height: 38px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 99999px;
+    background: #322659;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.notify > img {
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.insideHero1, .insideHero2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.insideHero1 > img {
+    height: 180px;
+}
+
+.insideHero2 > div > img {
+    width: 280px;
+    cursor: pointer;
+}
+
+.insideHero3 {
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 5px;
+    right: 530px;
+}
+
+.insideHero3Texts {
+    padding-right: 50px;
+}
+
+.insideHero3Texts > h3 {
+    color: var(--secondary-dark-grey-900, #1B2559);
+    font-family: DM Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.68px;
+}
+
+.insideHero3Texts > p {
+    color: #718096;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+
+.insideHero3Texts > .btn1 {
+    width: 120px;
+    height: 35px;
+    flex-shrink: 0;
+    font-family: DM Sans;
+    border: none;
+    background-color: #322659;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+}
+.insideHero3Texts > button {
+    margin-top: 20px;
+}
+
+.insideHero3Texts > .btn2 {
+    border: none;
+    background-color: transparent;
+    font-family: DM Sans;
+}
+
+.insideHero3 > div > img {
+    border-radius: 15px;
+    height: 200px;
+}
