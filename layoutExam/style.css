@@ -1,0 +1,651 @@
+/* font-family: 'American Captain', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/american-captain-2');
+
+/* font-family: SF Pro Display; */
+@font-face {
+    font-family: SF Pro Display;
+    src: url('./fonts/sf-pro-display_regular.woff2') format('truetype');
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    color: black;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+.opacity {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+/* body {                               
+} */
+
+header {
+    background-image: url(./images/Background.jpg);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    padding: 32px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > h3 {
+    color: #FFF;
+    font-family: American Captain;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu {
+    display: none;
+}
+
+.info {
+    display: flex;
+    gap: 40px;
+}
+
+.info > button {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1 px solid transparent;
+
+    background: transparent;
+    border: none;
+}
+
+.info > button > a {
+    transition: 0.3s;
+}
+
+.info > button a:hover {
+    color: blue;
+}
+
+.contact > button {
+    display: flex;
+    padding: 0.5rem 2rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    font-family: SF Pro Display;
+    background: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid #FFF;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.contact > button:hover {
+    border: 2px solid blue;
+}
+
+
+
+.hero {
+    padding: 100px 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 30px;
+}
+
+.hero > h2 {
+    color: #FFF;
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+    font-family: American Captain;
+    text-align: right;
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+.hero > div {
+width: 300px;
+}
+
+.hero > div > p {
+    color: #FFF;
+    text-align: right;
+    font-family: SF Pro Display;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.hero > button {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.5rem;
+    border: 2px solid #FFF;
+    background: transparent;
+
+    transition: 0.3s;
+}
+
+.hero > button:hover {
+    border: 2px solid blue;
+}
+
+
+
+.about-us {
+    background-color: #161616;
+    padding: 50px 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.about-us > div > h2 {
+    width: 85vw;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    font-family: American Captain;
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+.about-us-texts, .about-us-img {
+    width: 45%;
+}
+
+.about-us-texts > p {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.about-us-img > img {
+    border-radius: 0.625rem;
+    width: 600px;
+}
+
+
+
+.benefits {
+    background: #1A191A;
+    background-image: url(./images/Lines.png), url(./images/Lines\ \(1\).png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.benefits-headline > h2 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    font-family: American Captain;
+    font-size: 5.1rem;
+    font-weight: 400;
+}
+
+.benefits-headline > p {
+    color: #FFF;
+    font-family: SF Pro Display;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.benefits-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.benefits-option > .benefits-optionIII {
+    height: 250px;
+    width: 200px;
+    padding: 50px;
+    border-radius: 1rem;
+    padding: 0rem 2.125rem 2.1875rem 2.125rem;
+}
+
+.benefits-optionIII > img {
+    height: 150px;
+    position: relative;
+    bottom: 60px;
+}
+
+.benefits-optionIII > h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    position: relative;
+    bottom: 60px;
+}
+
+.benefits-optionIII > p {
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 500;
+
+    position: relative;
+    bottom: 50px;
+}
+
+.benefits-optionIII > p > a {
+    text-decoration: underline;
+    font-size: 0.7rem;
+    position: relative;
+    top: 10px;
+}
+
+.benefits-option1 {
+    background: rgba(0, 221, 168, 0.50);
+}
+.benefits-option2 {
+    background: rgba(207, 41, 41, 0.60);
+}
+.benefits-option3 {
+    background: rgba(0, 88, 221, 0.60);
+}
+
+
+
+
+
+.cars {
+    background-color: #161616;
+    padding: 80px 0;
+}
+
+.cars-headline {
+    padding: 0 0 50px 50px;
+}
+
+.cars-headline > h2 {
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    font-family: American Captain;
+    font-size: 5.1rem;
+    font-weight: 400;
+}
+
+.cars-headline > p {
+    color: #FFF;
+    font-family: SF Pro Display;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.cars-imges, .cars-imges2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cars-imges > img, .cars-imges2 > img {
+    height: 212px;
+}
+
+.cars-imges > div {
+    height: 212px;
+    width: 448px;
+    background-image: url(./images/Rectangle\ 2.png);
+    position: relative;
+}
+
+.cars-imges > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.cars-imges > div > div > h4 {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cars-imges > div > div > p {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cars-imges > div > div > button {
+    border-radius: 0.5rem;
+    border: 2px solid #FFF;
+    padding: 0.2rem 1.60rem;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.2rem;
+    background: transparent;
+
+    transition: 0.3s;
+}
+
+.cars-imges > div > div>  button:hover {
+    border: 2px solid blue;
+}
+
+
+
+.cars-power {
+    background-color: #161616;
+    padding: 20px 0;
+    background-image: url(./images/Star\ 2.png);
+    background-repeat: no-repeat;
+}
+
+.cars-power-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px 20px 80px;
+}
+
+.cars-power-desc > div > h2 {
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    font-family: American Captain;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cars-power-desc > div > p {
+    color: #FFF;
+    font-family: SF Pro Display;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cars-power-video > img {
+    height: 756px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+
+
+.contactBox::before {
+    content: "CONTACT US";
+    background-position: top;
+    color: #242323;
+    font-family: SF Pro Display;
+    font-size: 14rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: lowercase;
+
+    position: relative; /* Set the pseudo-element to absolute positioning */
+    bottom: 160px;
+}
+
+.contactBox {
+    background-color: #161616;
+    height: 210px;
+}
+
+.contactBox > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+
+    position: relative;
+    bottom: 290px;
+}
+
+.contactBox > div > .contactBox-headline, .contactBox > div > form {
+    width: 40%;
+}
+
+.contactBox-headline > h2 {
+    color: #FFF;
+    font-family: American Captain;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contactBox-headline > p {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+form > div > input {
+    color: white;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+form > div .msg {
+    width: 402px;
+}
+
+input::placeholder {
+    color: #f2f2f282;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.125rem; /* 250% */
+}
+
+form > div > select {
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    color: #f2f2f282;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.125rem;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+select > option {
+    background-color:#161616;
+    border: none;
+    overflow: hidden;
+}
+
+form > div > input:focus, form > div > select:focus {
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+form > button {
+    color: white;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    padding: 0.2rem 2rem;
+    border: 1px solid #f2f2f2f2;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+form > button:hover {
+    border: 1px solid blue;
+}
+
+
+.google-map {
+    box-sizing: border-box;
+}
+
+.google-map > iframe {
+    width: 99.80%;
+    height: 300px;
+}
+
+
+
+
+footer {
+    background-color: #161616;
+    padding: 100px 100px 0 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-content > .logo > h2 {
+    color: #FFF;
+    font-family: American Captain;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 65px;
+}
+
+.footer-content > ul > h3 {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; /* 91.429% */
+    letter-spacing: -0.04156rem;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.footer-content > ul > li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.footer-content > ul > li > a {
+    color: #BDBDBD;
+    font-family: SF Pro Display;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-content > ul > div  {
+    margin-top: 10px;
+}
+
+.footer-content > ul > div > a {
+    margin-right: 10px;
+    font-size: 1.3rem;
+    
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.copyright > .policy {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+}
+
+.copyright > .policy > p {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    text-transform: capitalize;
+}
+
+.copyright > .reserve > p {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}

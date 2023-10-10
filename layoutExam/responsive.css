@@ -1,0 +1,207 @@
+@media (max-width: 700px) {
+    
+    header {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .nav {
+        padding: 10px 20px;  
+    }
+    
+    .nav > .logo > h3 {
+        font-size: 2rem;
+    }
+
+    .menu {
+        display:inline-block;
+        margin-left: 180px;
+        font-size: 22px;
+    }
+
+    .nav > .info {
+        display: none;
+    }
+
+    .nav > .contact > button{
+        display: none;
+    }
+
+    .hero {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .hero > h2 {
+        font-size: 2rem;
+    }
+
+    .hero > div {
+        width: 50vw;
+    }
+
+    .hero > div > p {
+        font-size: 0.6rem;
+    }
+
+    .hero > button {
+        font-size: 0.9rem;
+        padding: 0.2rem 1rem;
+    }
+
+
+    .about-us {
+        padding: 10px;
+    }
+
+    .about-us > div > h2 {
+        font-size: 2rem;
+    }
+
+    .about-us-texts, .about-us-img {
+        width: 100vw;
+    }
+
+    .about-us-texts > p {
+        font-size: 0.9rem;
+    }
+
+    .about-us-img > img {
+        border-radius: 0.625rem;
+        width: 95vw;
+    }
+
+    .benefits {
+        padding: 30px 10px;
+        background-image: none;
+    }
+
+    .benefits-headline > h2 {
+        font-size: 2rem;
+    }
+
+    .benefits-headline > p {
+        font-size: 0.9rem;
+    }
+
+    .benefits-option {
+        flex-direction: column;
+    }
+
+    .cars {
+        padding: 50px 10px;
+    }
+
+    .cars-headline {
+        padding: 0 0 10px 10px;
+    }
+
+    .cars-headline > h2  {
+        font-size: 3rem;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .cars-imges > img, .cars-imges2 > img {
+        width: 95vw;
+    }
+
+    .cars-imges > div {
+        width: 95vw;
+    }
+
+    .cars-power {
+        padding: 10px 0;
+    }
+
+    .cars-power-desc {
+        margin: 0 20px 10px 10px;
+        flex-direction: column;
+    }
+
+    .cars-power-desc > div > h2 {
+        font-size: 3rem;
+    }
+
+    .cars-power-desc > div > p {
+        font-size: 1rem;
+    }
+
+    .cars-power-video > img {
+        margin-left: 10px;
+        width: 96vw;
+        height: auto;
+    }
+
+    .contactBox::before {
+        display: none;
+    }
+
+    .contactBox {
+        height: auto;
+    }
+
+    .contactBox > div {
+        margin: 0 10px;
+        flex-direction: column;
+
+        bottom: 100px;
+    }
+
+    .contactBox > div > .contactBox-headline, .contactBox > div > form {
+        width: 95vw;
+    }
+
+    .contactBox-headline > h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .contactBox-headline > p {
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: normal;
+    }
+
+    form > div > input, form > div .msg,form > div > select {
+        width: 90vw;
+    }
+
+    .map {
+        width: 98vw;
+    }
+
+    footer {
+        padding: 10px 10px 0 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-content > .logo > h2 {
+        display: none;
+    }
+
+    .footer-content > ul > h3 {
+        font-size: 1.4rem;
+        margin-top: 30px;
+    }
+
+    .footer-content > ul > div > a {
+        font-size: 1rem;
+        margin-right: auto;
+    }
+
+    .copyright {
+        flex-direction: column;
+    }
+
+    .copyright > .policy {
+        flex-direction: column;
+    }
+
+
+}
