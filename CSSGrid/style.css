@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 200px 200px;
+    /* fractional unit (fr) */
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 3fr 4fr;
+    /* for both are one line */
+    grid-template: repeat(3, 3fr) / repeat(4, 2fr);
+
+    /* Gap: */
+    grid-row-gap: 5px;
+    grid-column-gap: 10px;
+    /* for row column both */
+    grid-gap: 5px;
+}
+
+.container > div {
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.one {
+    background-color: blue;
+    color: white;
+}
+
+.three {
+    background-color: darkgreen;
+}
+
+.four {
+    background-color: azure;
+}
+
+.five {
+    background-color: red;
+}
+
+.two {
+    background-color: aquamarine;
+}
